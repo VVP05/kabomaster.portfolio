@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kỹ năng - Võ Văn Phụng</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    .skill-section {
+        padding-top: 140px; 
+        padding-bottom: 80px;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div> 
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="logo.png" alt="Logo của Văn Phụng">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skill.html" class="active">Skill</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html" class="btn-contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="skill-section">
+    <div class="container">
+      <h2 data-aos="fade-right"><i class="fas fa-code"></i> Kỹ năng chuyên môn</h2>
+      <div class="skill-section-content-wrapper">
+        <div class="skill-illustration-left" data-aos="fade-right" data-aos-delay="100">
+          <img src="banner5.jpg" alt="Minh họa kỹ năng lập trình">
+        </div>
+        <div class="skills-section">
+          <div class="skill-box" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Ngôn ngữ & Công nghệ</h3>
+            <ul class="skill-list">
+              <li><i class="fab fa-html5"></i> HTML</li>
+              <li><i class="fab fa-css3-alt"></i> CSS</li>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fab fa-js"></i> JavaScript</li>
+              <li><i class="fas fa-robot"></i> C++</li> </ul>
+            </ul>
+          </div>
+
+          <div class="skill-box" data-aos="zoom-in" data-aos-delay="400">
+            <h3>Công cụ & Frameworks</h3>
+            <ul class="skill-list">
+              <li><i class="fas fa-laptop-code"></i> Visual Studio Code</li>
+              <li><i class="fas fa-code-branch"></i> MySQL / SQLite</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-illustration-right" data-aos="fade-left" data-aos-delay="100">
+          <img src="banner4.jpg" alt="Minh họa công cụ phát triển">
+        </div>
+      </div>
+
+      <h2 data-aos="fade-right" data-aos-delay="500"><i class="fas fa-users"></i> Kỹ năng mềm</h2>
+      <div class="skills-section">
+        <div class="skill-box" data-aos="zoom-in" data-aos-delay="600">
+          <h3>Giao tiếp & hợp tác</h3>
+          <ul class="skill-list">
+            <li><i class="fas fa-comments"></i> Giao tiếp hiệu quả</li>
+            <li><i class="fas fa-users-cog"></i> Làm việc nhóm</li>
+          </ul>
+        </div>
+
+        <div class="skill-box" data-aos="zoom-in" data-aos-delay="800">
+          <h3>Tư duy & kỷ luật</h3>
+          <ul class="skill-list">
+            <li><i class="fas fa-lightbulb"></i> Giải quyết vấn đề</li>
+            <li><i class="fas fa-brain"></i> Tư duy phản biện</li>
+            <li><i class="fas fa-book-reader"></i> Tự học, tự nghiên cứu</li>
+            <li><i class="fas fa-tasks"></i> Quản lý thời gian</li>
+            <li><i class="fas fa-chart-line"></i> Phân tích dữ liệu cơ bản</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Võ Văn Phụng.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-out-quad',
+      once: true, 
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

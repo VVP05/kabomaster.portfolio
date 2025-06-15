@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liên hệ - Võ Văn Phụng</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    .contact-section {
+        padding-top: 140px; 
+        padding-bottom: 80px;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div> <header class="navbar">
+    <div class="container">
+        <a href="index.html" class="navbar-logo">
+    <img src="logo.png" alt="Logo của Văn Phụng">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html" class="btn-contact active">Contact Me </a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2 data-aos="fade-right"><i class="fas fa-envelope"></i> Liên hệ với tôi</h2>
+      <p data-aos="fade-right" data-aos-delay="100">Nếu bạn có bất kỳ câu hỏi nào hoặc muốn hợp tác, hãy liên hệ qua thông tin bên dưới:</p>
+
+      <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+        <p>
+            <i class="fas fa-envelope"></i> Email: <a href="mailto:vovanphung20112005@gmail.com">vovanphung20112005@gmail.com</a>
+        </p>
+        <p>
+            <i class="fas fa-phone-alt"></i> Số điện thoại & Zalo: <a href="tel:0355523796">0355 523 796</a>
+        </p>
+      </div>
+
+      <div class="social-icons" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://www.facebook.com/share/1AdqmGHZ7k/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/v.vanphung_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/VVP05" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <form class="contact-form" data-aos="fade-up" data-aos-delay="600">
+  <input type="text" placeholder="Tên của bạn" required>
+  <input type="email" placeholder="Email của bạn" required>
+  <textarea placeholder="Nội dung tin nhắn" required></textarea>
+  <button type="submit">Gửi tin nhắn</button>
+</form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Võ Văn Phụng.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-out-quad',
+      once: true,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
