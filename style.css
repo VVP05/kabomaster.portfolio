@@ -160,12 +160,12 @@ h2::after {
 
 .hero-content {
     display: flex;
-    flex-direction: row; /* nằm ngang */
+    flex-direction: row; 
     align-items: center;
     justify-content: center;
-    gap: 50px; /* khoảng cách giữa ảnh và text */
+    gap: 50px; 
     flex-wrap: wrap; /* nếu mobile sẽ tự xuống hàng */
-    text-align: left; /* text canh trái */
+    text-align: left; 
 }
 @media (max-width: 768px) {
   .hero-content {
